@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <h1><a href="./index.html">Pokedex</a></h1>
+      <img src="./img/pokebola.png" alt="" />
+    </div>
+
+    <div class="box-main">
+      <div class="main">
+        <div class="circles">
+          <div class="cyan-circle"></div>
+          <div class="red-circle"></div>
+          <div class="yellow-circle"></div>
+          <div class="green-circle"></div>
+        </div>
+        <div class="box-gray">
+          <div class="info-poke">
+            <div class="img-pokemon">
+              <h2 id="element"></h2>
+              <img
+                src="./img/poke-shadow.png"
+                alt="pokemon"
+                id="pokeImg"
+                class="pokeImg"
+                width="150px"
+              />
+            </div>
+            <div class="statsPoke">
+              <ul id="poke-stats"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="blue-button"></button>
+          <button class="green-button"></button>
+          <button class="yellow-button"></button>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Busca tu pokemon (Número o nombre)"
+            id="pokeName"
+            class="limpiarinput"
+            name="pokeName"
+          />
+          <button onclick="fechPokemon()" class="buscar">
+            <img src="./img/lupa.png" alt="lupa" />
+          </button>
+        </div>
+      </div>
+      <div class="contenedor-dos">
+        <div class="cuadrado-dos"></div>
+        <div class="cuadrado-tres"></div>
+      </div>
+    </div>
+    <script src="./js/pokedex.js"></script>
+  </body>
+</html>
