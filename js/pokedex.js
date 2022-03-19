@@ -39,33 +39,16 @@ const fechPokemon = () =>{
    
 }
 
-
- 
-
-//fechPokemon()
-
 const pokeImage = (url) =>{
     const pokeImg = document.getElementById("pokeImg")
     pokeImg.src = url;
 }
 
 
-const imprimir = () =>{
-    const pokeName = document.getElementById("pokeName");
-    let poKeInput = pokeName.value;
-    console.log("hoala" + poKeInput)
-}
 
 
 
 
-//for(let i=0; i< data.stats.length; i++){
-//    console.log( data.stats[i].stat.name + data.stats[i].base_stat);
-//    let element = document.getElementById("elementz")
- //    element.innerHTML = `
-///     <p>${data.stats[i].stat.name + data.stats[i].base_stat}</p>
- 
-/// 
- //    `;
-//}
+
+
 
