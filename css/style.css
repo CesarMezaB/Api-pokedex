@@ -1,7 +1,5 @@
 html,body {
   box-sizing: border-box;
-  	height: 100%;
-	overflow: hidden;
   font-family: sans-serif;
 }
 body {
@@ -213,6 +211,7 @@ margin-top: 10px;
   width: 100%;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom:20px;
 }
 .cuadrado-dos{
   position: relative;
